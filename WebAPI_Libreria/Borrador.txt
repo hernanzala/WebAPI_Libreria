@@ -1,0 +1,35 @@
+﻿
+
+APLICACION  WEB API
+
+EndPoint un puerto de comunicaciones va a recibir o retornar informacion
+Instalar paquetes NuGet
+1 microsoft.entityframeworkcore primer paquete a instalar
+2 microsoft.entityframeworkcore.tools 
+3 microsoft.entityframeworkcore.sql
+
+Crear un controlador CRUD
+1 Clase de modelos (Crear carpeta MODELS)
+	*Crear clases de modelos
+	*Crear el controlador dentro de la carpeta controllers (API controller) en blanco
+
+Crear contexto de base de datos db
+	* agregar una carpeta al proyecto llamada Contexto
+	* crear Clase Contexto que Hereda de DbContext
+	*Crear tablas de base de datos (public DbSet<Autor> Autores { get; set; }) 
+	*metodo constructor
+
+	Generar la cadena de conexion en la clase Startup
+
+	Archivo de conexion en appsetting
+
+	*"MiConexion": "Data Source=DESKTOP-A82EGMG; Initial Catalog=WebAPI_Libreria;Integrated Security=True"
+		},//Comunicacion con la base de datos
+
+
+  Crear clases para las migraciones (Consola de admionistrador de paquetes)
+  1 Crear la migracion ( Add-Migration CreacionBD)
+  2 Actualizar da DB (update-database)
+
+  1:25:45
+
