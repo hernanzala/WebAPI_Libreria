@@ -12,5 +12,6 @@ namespace WebAPI_Libreria.Contexto
         }
 
         public DbSet<Autor> Autores { get; set; }
+        public DbSet<Tienda> Tienda { get; set; }
     }
 }

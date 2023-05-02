@@ -31,5 +31,7 @@ Crear contexto de base de datos db
   1 Crear la migracion ( Add-Migration CreacionBD)
   2 Actualizar da DB (update-database)
 
-  1:25:45
+  Metodos GET y POST creados
+
+  Clase 4/4/2023 Programacion web Trabajo Finalizado
 
